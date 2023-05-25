@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardProduct"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="@dimen/cardCornerRadius"
+    app:cardElevation="@dimen/cardElevation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgProductItem"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/imgSizeHeight"
+                android:scaleType="center"
+                android:src="@mipmap/ic_launcher_libre_agro" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvProductNameItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/poppins"
+            android:gravity="center_horizontal"
+            android:text="Producto"
+            android:textSize="@dimen/textSizeNameProduct"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvProductPriceItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/poppins"
+            android:gravity="center_horizontal"
+            android:text="$ 999.99"
+            android:textSize="@dimen/textSizePriceProduct"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

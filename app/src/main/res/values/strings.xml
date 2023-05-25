@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Pammi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textHome"><b>Pammi</b> Es una aplicación móvil que permite visualizar y ofrecer los servicios de cuiado persona, para que los usuarios <b>reserven</b></string>
+    <string name="description">Pammi cuenta un inicio de sesión por el cual es posible registrarse usando una cuenta de <b>Google</b>,
+                            en la pantalla principal permite visualizar los servicios de cuidado personal que se encuentren en una base de datos <b>Firebase</b>, además permite subir productos con su nombre, descripción, precio y foto a su vez
+                            se pueden <b>realizar comentarios</b> sobre la aplicación o servicio especifico y
+                            ver lo que otras personas opinan también <b>cuenta con un perfil</b> </string>
+    <string name="hintCommet">Ingrese comentario</string>
+    <string name="textBtnComentario">Guardar comentario</string>
+    <string name="name">Nombre</string>
+    <string name="address">Dirección</string>
+    <string name="phone">Número de teléfono</string>
+    <string name="email">Correo electrónico</string>
+    <string name="saveAdmin">Guardar datos</string>
+    <string name="editarDatos">Editar datos</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="calificacion">Calificación</string>
+</resources>

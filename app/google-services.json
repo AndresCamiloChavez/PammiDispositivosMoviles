@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1064565426333",
+    "project_id": "agrolibre-a338e",
+    "storage_bucket": "agrolibre-a338e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064565426333:android:cea5b6d30ce47c979e6c74",
+        "android_client_info": {
+          "package_name": "com.example.agrolibre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064565426333-ugvc986ukgosr4jsshiq5ub016ujamrg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agrolibre",
+            "certificate_hash": "bfd65b0cf7f94294a921f00ad2c50c3a651c30a1"
+          }
+        },
+        {
+          "client_id": "1064565426333-u2cq3u2uirg77lopht4pvfuhlpf7kgkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARePjhFZ43cc0INxqgjplfVbnRdScjA_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064565426333-u2cq3u2uirg77lopht4pvfuhlpf7kgkc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
